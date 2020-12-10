@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Nunito&display=swap");
+
+/* #SECTION Body, HTML, and main formatting */
+
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+
+/* #!SECTION */
+
+/* #SECTION Navbar styling and media queries */
+
+.brand-mobile {
+  font-family: "Nunito", sans-serif;
+}
+
+.brand-large {
+  font-family: "Caveat", cursive;
+}
+
+a.nav-link {
+  color: #f6f6f6;
+}
+
+.navbar-brand {
+  color: #f6f6f6;
+}
+
+.navbar-nav li:nth-of-type(3) {
+  background-color: #a30001;
+  border-radius: 15px;
+}
+
+/* #!SECTION */
+
+/* #SECTION Hero section styling and media queries */
+
+.hero {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("assets/img/hero-image.jpg");
+  height: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+  font-family: "Caveat", cursive;
+  margin-top: -5%;
+}
+
+@media (min-width: 576px) {
+  .hero {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 75vh;
+  }
+}
+
+/* #!SECTION */

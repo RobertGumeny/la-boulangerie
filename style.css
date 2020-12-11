@@ -19,12 +19,12 @@ body {
   font-family: "Caveat", cursive;
 }
 
-a.nav-link {
-  color: #f6f6f6;
+.navbar a.nav-link {
+  color: #fff;
 }
 
 .navbar-brand {
-  color: #f6f6f6;
+  color: #fff;
 }
 
 .nav-order-btn {

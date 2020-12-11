@@ -108,7 +108,7 @@ body {
 .order-now-text {
   position: absolute;
   top: 35%;
-  left: 23%;
+  left: 28%;
   transform: translate(-30%, -50%);
 }
 
@@ -133,4 +133,7 @@ body {
 .social-links a {
   color: #000;
 }
+/* !SECTION */
+
+/* #SECTION Locations */
 /* !SECTION */

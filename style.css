@@ -75,3 +75,12 @@ a.nav-link {
 }
 
 /* #!SECTION */
+
+/* #SECTION About and Specials section */
+.carousel-caption {
+  color: #000;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* #!SECTION */
